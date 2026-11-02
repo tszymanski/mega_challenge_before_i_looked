@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { digestJson } from './api.js';
-import { readNight } from './read.js';
+import { digestJson } from '../src/digest/api.js';
+import { readNight } from '../src/digest/read.js';
 
 describe('digestJson', () => {
   it('returns the Night from readNight as is', () => {
